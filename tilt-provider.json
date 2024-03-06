@@ -1,0 +1,17 @@
+[
+  {
+    "name": "civo",
+    "config": {
+      "image": "ghcr.io/PatrickLaabs/cluster-api-provider-civo:dev",
+      "live_reload_deps": [
+        "main.go",
+        "go.mod",
+        "go.sum",
+        "api",
+        "controllers",
+        "pkg"
+      ],
+      "label": "CAPCI"
+    }
+  }
+]
